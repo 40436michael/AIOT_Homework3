@@ -6,23 +6,23 @@
 
 此處保留位置以放置已部署的 Streamlit 應用連結與執行結果圖（方便在 README 直接展示）。請在部署完成後將以下佔位文字替換為實際的 URL 或把產生的圖檔放到 `reports/visualizations/` 下，README 會自動顯示它們。
 
-- Streamlit App（請替換為實際連結）：
+- Streamlit App：
 
-	[Streamlit Demo - 點此開啟](<STREAMLIT_APP_URL>)
+	[Streamlit Demo - 點此開啟](https://aiothomework3-affkudwlftpskjmgn4rw7q.streamlit.app/)
 
 - 若要以 badge 顯示（選用）：
 
-	[![Open Streamlit](https://img.shields.io/badge/Streamlit-Open-orange)](<STREAMLIT_APP_URL>)
+	[![Open Streamlit](https://img.shields.io/badge/Streamlit-Open-orange)]https://aiothomework3-affkudwlftpskjmgn4rw7q.streamlit.app/
 
 執行結果圖（範例佔位）：在你本機或 CI 執行 notebook 的 export cell 後，將會產生並儲存在 `reports/visualizations/`，你可以把下面的佔位圖直接替換為實際圖檔：
 
-![Confusion matrix](reports/visualizations/confusion_matrix.png)
-![ROC curve](reports/visualizations/roc_curve.png)
-![Precision-Recall](reports/visualizations/precision_recall.png)
-![Calibration](reports/visualizations/calibration.png)
-![Score distribution](reports/visualizations/score_distribution.png)
-![Top TF-IDF features](reports/visualizations/top_tfidf_features.png)
-![Threshold sweep](reports/visualizations/threshold_sweep.png)
+<img width="1822" height="794" alt="image" src="https://github.com/user-attachments/assets/38551b3e-8268-46a9-b259-1504499931c7" />
+<img width="1508" height="729" alt="image" src="https://github.com/user-attachments/assets/9ff65723-daaf-4b35-8253-ffd609016124" />
+<img width="1493" height="518" alt="image" src="https://github.com/user-attachments/assets/55d82d89-d2f8-416b-a168-ca677076a63c" />
+<img width="1522" height="707" alt="image" src="https://github.com/user-attachments/assets/6b8faf47-5f5c-4ea8-bcef-e362846c59d7" />
+<img width="1482" height="578" alt="image" src="https://github.com/user-attachments/assets/f599f666-7c41-4805-ba0e-bbde01ba4d49" />
+
+
 
 替換說明：
 
@@ -210,4 +210,5 @@ fig.savefig(f"reports/visualizations/roc_{os.path.basename(DATA_PATH)}.png", bbo
 註記
 
 - 若你要我現在代為執行 notebook 的新增 EDA / 分析 cells，或產生並存檔這些圖檔，請回覆「執行 notebook cells 並儲存圖檔」，並告訴我要執行的 cell 範圍（例如「從第 5 到第 11 cell」或「全部 cells」）。
+
 
