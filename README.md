@@ -10,10 +10,6 @@
 
 	[Streamlit Demo - 點此開啟](https://aiothomework3-affkudwlftpskjmgn4rw7q.streamlit.app/)
 
-- 若要以 badge 顯示（選用）：
-
-	[![Open Streamlit](https://aiothomework3-affkudwlftpskjmgn4rw7q.streamlit.app/)]
-
 執行結果圖（範例佔位）：在你本機或 CI 執行 notebook 的 export cell 後，將會產生並儲存在 `reports/visualizations/`，你可以把下面的佔位圖直接替換為實際圖檔：
 
 <img width="1822" height="794" alt="image" src="https://github.com/user-attachments/assets/38551b3e-8268-46a9-b259-1504499931c7" />
