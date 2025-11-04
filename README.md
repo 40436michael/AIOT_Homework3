@@ -8,7 +8,7 @@
 
 - Streamlit App：
 
-	[Streamlit Demo - 點此開啟](https://aiothomework3-affkudwlftpskjmgn4rw7q.streamlit.app/)
+	[https://aiothomework3-affkudwlftpskjmgn4rw7q.streamlit.app/](https://aiothomework3-affkudwlftpskjmgn4rw7q.streamlit.app/)
 
 執行結果圖（範例佔位）：在你本機或 CI 執行 notebook 的 export cell 後，將會產生並儲存在 `reports/visualizations/`，你可以把下面的佔位圖直接替換為實際圖檔：
 
@@ -206,6 +206,7 @@ fig.savefig(f"reports/visualizations/roc_{os.path.basename(DATA_PATH)}.png", bbo
 註記
 
 - 若你要我現在代為執行 notebook 的新增 EDA / 分析 cells，或產生並存檔這些圖檔，請回覆「執行 notebook cells 並儲存圖檔」，並告訴我要執行的 cell 範圍（例如「從第 5 到第 11 cell」或「全部 cells」）。
+
 
 
 
